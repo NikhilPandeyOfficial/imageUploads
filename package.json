@@ -1,0 +1,17 @@
+{
+  "name": "node-uploads",
+  "version": "1.0.0",
+  "description": "using multer and images will be stored in some folder not directly in mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "NIKHIL",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
